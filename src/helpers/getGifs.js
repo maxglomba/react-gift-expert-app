@@ -1,4 +1,4 @@
-const apiKey = process.env.GIPHY_API_KEY || '';
+const apiKey = process.env.REACT_APP_GIPHY_API_KEY || '';
 const apiSearchUrl = `https://api.giphy.com/v1/gifs/search?api_key=${apiKey}`;
 
 
