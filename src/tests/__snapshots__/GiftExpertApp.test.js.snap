@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pruebas en componente <GiftExpertApp /> debe renderizar el componente <GiftExpertApp /> correctamente 1`] = `
+<Fragment>
+  <h2>
+    Gift Expert App
+  </h2>
+  <hr />
+  <CategoryAdd
+    categories={Array []}
+    setCategories={[Function]}
+  />
+  <ol />
+</Fragment>
+`;

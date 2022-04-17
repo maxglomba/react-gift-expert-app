@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente <GifElement /> Debe renderizar el componente correctamente 1`] = `
+<div
+  className="thumbCard animate__animated animate__fadeIn animate__slow"
+>
+  <img
+    alt="Test title"
+    src="https://media4.giphy.com/media/yovOUEWBV2R46yrQ0B/giphy.gif?cid=b89f5553wrq1wehi68egkpgpghy2ab63egohqzk6t49644ym&rid=giphy.gif&ct=g"
+  />
+  <p>
+    Test title
+  </p>
+</div>
+`;
