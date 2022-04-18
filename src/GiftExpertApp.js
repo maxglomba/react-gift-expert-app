@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
 import CategoryAdd from './components/CategoryAdd';
 import GifGrid from './components/GifGrid';
+import PropTypes from 'prop-types'
 
-const GiftExpertApp = () => {
+const GiftExpertApp = ( {defaultCategories = []}) => {
 
-    const [categories, setCategories] = useState([]);
+    const [categories, setCategories] = useState(defaultCategories);
 
     return (
         <>
@@ -24,6 +25,10 @@ const GiftExpertApp = () => {
             </ol>
         </>
     )
+}
+
+GiftExpertApp.propTypes = {
+    defaultCategories: PropTypes.array
 }
 
 export default GiftExpertApp;

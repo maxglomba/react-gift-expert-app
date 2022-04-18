@@ -7,9 +7,23 @@ exports[`pruebas en componente <GiftExpertApp /> debe renderizar el componente <
   </h2>
   <hr />
   <CategoryAdd
-    categories={Array []}
+    categories={
+      Array [
+        "naruto",
+        "samurai x",
+      ]
+    }
     setCategories={[Function]}
   />
-  <ol />
+  <ol>
+    <GifGrid
+      category="naruto"
+      key="naruto"
+    />
+    <GifGrid
+      category="samurai x"
+      key="samurai x"
+    />
+  </ol>
 </Fragment>
 `;

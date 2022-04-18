@@ -14,7 +14,7 @@ const GifGrid = ({ category, quantity = 5 }) => {
     return (
         <>
             <h3 className='animate__animated animate__fadeIn'>{category}</h3>
-            <p className='animate__animated animate__flash'>{loading ? 'Cargando...' : !images.length && 'No se encontro ninguna imagen'}</p>
+            {loading ? <p className='animate__animated animate__flash'>Cargando...</p> : !images.length && 'No se encontro ninguna imagen'}
             <div className='card-grid'>
                 {
                     images.map((imageData,k) => (
